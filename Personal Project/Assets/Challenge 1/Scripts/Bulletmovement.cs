@@ -19,10 +19,15 @@ public class Bulletmovement : MonoBehaviour
     {
         dist = Vector3.Distance(player.transform.position, transform.position);
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
-        if (dist > vanish)
-        {
-            Destroy(gameObject);
-        }
 
+            Destroy(gameObject, 5);
+
+
+
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
     }
 }
