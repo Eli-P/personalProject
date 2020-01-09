@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 2184253313581580505}
   - component: {fileID: 4758333132167624394}
   - component: {fileID: 9199247266098649922}
-  - component: {fileID: -5890176343035020488}
-  - component: {fileID: -7126869689856567103}
+  - component: {fileID: -648513153427256032}
   m_Layer: 0
   m_Name: Unity models 1 (1)
   m_TagString: Untagged
@@ -99,23 +98,7 @@ MonoBehaviour:
   speed: 100
   dist: 0
   vanish: 500
---- !u!54 &-5890176343035020488
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6996643575799366783}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &-7126869689856567103
+--- !u!65 &-648513153427256032
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

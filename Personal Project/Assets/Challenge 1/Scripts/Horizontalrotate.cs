@@ -25,17 +25,17 @@ public class Horizontalrotate : MonoBehaviour
     {
         plyrX = player.transform.position.x;
         //plyrY = player.transform.position.y;
-        plyrZ = player.transform.position.z;
+        plyrZ = player.transform.position.y;
         float dist = Vector3.Distance(transform.position, player.transform.position);
         if (dist < range)
         {
-            if (gameObject.transform.rotation.y > rotatepoint)
+            if (gameObject.transform.rotation.z > rotatepoint)
             {
-                gameObject.transform.Rotate(Vector3.up, gameObject.transform.rotation.y - rotateSpeed);
+                gameObject.transform.Rotate(Vector3.up, gameObject.transform.rotation.z - rotateSpeed);
             }
-            else if (gameObject.transform.rotation.y > rotatepoint)
+            else if (gameObject.transform.rotation.z > rotatepoint)
             {
-                gameObject.transform.Rotate(Vector3.up, gameObject.transform.rotation.y + rotateSpeed);
+                gameObject.transform.Rotate(Vector3.up, gameObject.transform.rotation.z + rotateSpeed);
             }
 
 

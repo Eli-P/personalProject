@@ -99,7 +99,7 @@ public class PlayerControllerX : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Joystick1Button0))
         {
-            Instantiate(bullet, transform.position + new Vector3(0, 0.1f, 3), transform.rotation);
+            //  Instantiate(bullet, transform.position + new Vector3(0, 0.1f, 3), transform.rotation);
         }
 
     }
